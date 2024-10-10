@@ -1,0 +1,10 @@
+.appbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rightMenu {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}

@@ -1,0 +1,53 @@
+/* .locales {
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+} */
+
+div.dropdown {
+  border: none;
+  background-color: transparent;
+  font-size: 24px;
+}
+
+div.control {
+  border: none;
+  background-color: transparent;
+  font-size: 24px;
+  padding: 0;
+}
+div.dropdown div.menu * {
+  border: none;
+  background-color: transparent;
+  font-size: 24px;
+  padding: 0;
+}
+
+div.control div:has(> span) {
+  display: none;
+}
+
+/* .flag,
+.selectedFlag {
+  display: flex;
+  height: 40px;
+  width: 40px;
+  font-size: 24px;
+  align-items: center;
+  justify-content: center;
+} */
+
+/* .flag,
+.selectedFlag {
+  display: flex;
+  height: 40px;
+  width: 40px;
+  font-size: 24px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+} */
+
+/* .selectedFlag {
+  box-shadow: inset 0 0 12px 1px var(--neon-accent-color);
+} */

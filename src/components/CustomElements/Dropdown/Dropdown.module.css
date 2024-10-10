@@ -1,0 +1,22 @@
+.dropdown {
+  font-size: 20px;
+  position: relative;
+}
+.control {
+  font-size: inherit;
+  margin-bottom: 4px;
+}
+
+.optionList {
+  position: absolute;
+  z-index: 999;
+}
+
+.option {
+  cursor: pointer;
+  border-bottom: 1px solid transparent;
+}
+
+.option:hover {
+  border-bottom-color: var(--neon-accent-color);
+}

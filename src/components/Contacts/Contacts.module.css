@@ -1,0 +1,21 @@
+.contactsList {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.contactsList li {
+  border-bottom: 1px solid transparent;
+  padding-left: 0;
+  margin-left: 12px;
+  padding-right: 0;
+  margin-right: 12px;
+}
+
+.contactsList li:hover {
+  border-bottom-color: var(--neon-accent-color);
+  padding-left: 12px;
+  margin-left: 0;
+  padding-right: 12px;
+  margin-right: 0;
+}
