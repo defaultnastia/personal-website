@@ -18,5 +18,5 @@
 }
 
 .option:hover {
-  border-bottom-color: var(--neon-accent-color);
+  border-bottom-color: var(--accent-color);
 }

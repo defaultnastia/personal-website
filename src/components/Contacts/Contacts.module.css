@@ -13,7 +13,7 @@
 }
 
 .contactsList li:hover {
-  border-bottom-color: var(--neon-accent-color);
+  border-bottom-color: var(--accent-color);
   padding-left: 12px;
   margin-left: 0;
   padding-right: 12px;

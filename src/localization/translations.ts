@@ -1,11 +1,11 @@
-export const welcomeText = {
+export const homePageText = {
   en: {
-    mainTitle: "Welcome",
+    heroText: "Hello.\nI'm Full-Stack Developer\nAnastasiia Drachuk.",
   },
   ukr: {
-    mainTitle: "Вітаю",
+    heroText: "Вітаю.\nЯ - Full-Stack розробниця\nАнастасія Драчук.",
   },
   esp: {
-    mainTitle: "Bienvenidos",
+    heroText: "Hola.\nSoy la desarrolladora Full-Stack\nAnastasiia Drachuk.",
   },
 };

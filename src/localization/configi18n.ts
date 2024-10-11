@@ -2,7 +2,7 @@ import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
 
-import { welcomeText } from "./translations";
+import { homePageText } from "./translations";
 
 i18n
   .use(LanguageDetector)
@@ -16,17 +16,17 @@ i18n
     resources: {
       en: {
         translation: {
-          description: { welcome: welcomeText.en },
+          description: { homePageText: homePageText.en },
         },
       },
       ukr: {
         translation: {
-          description: { welcome: welcomeText.ukr },
+          description: { homePageText: homePageText.ukr },
         },
       },
       esp: {
         translation: {
-          description: { welcome: welcomeText.esp },
+          description: { homePageText: homePageText.esp },
         },
       },
     },

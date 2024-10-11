@@ -1,6 +1,7 @@
 .appbar {
   display: flex;
   justify-content: space-between;
+  padding: 20px 100px 40px;
 }
 
 .rightMenu {

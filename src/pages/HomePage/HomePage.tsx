@@ -1,11 +1,10 @@
-import { useTranslation } from "react-i18next";
+import Hero from "../../components/Hero/Hero";
+import css from "./HomePage.module.css";
 
 const HomePage = () => {
-  const { t } = useTranslation();
-
   return (
-    <div>
-      <p>{t("description.welcome.mainTitle")}</p>
+    <div className={css.home}>
+      <Hero />
     </div>
   );
 };
