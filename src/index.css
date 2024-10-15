@@ -9,6 +9,12 @@
   font-weight: bold;
 }
 
+@font-face {
+  font-family: "Inter Tight Black";
+  src: url("./fonts/InterTight/InterTight-Black.ttf");
+  font-weight: 900;
+}
+
 :root {
   font-family: Inter Tight, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -16,10 +22,12 @@
 
   color-scheme: light dark;
   --contrast-color: whitesmoke;
-  --contrast-color-fade: rgba(255, 255, 255, 0.8);
-  --accent-color: #ff5a5f;
+  --contrast-color-fade: rgba(245, 245, 245, 0.505);
+  --accent-color: #ff7f08;
+  --accent-color-fade: #f5dfd54f;
+  --dark-color: #1c1d21;
   color: var(--contrast-color);
-  background-color: #1c1d21;
+  background-color: var(--dark-color);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -33,6 +41,7 @@
   outline: none;
   transition: 0.25s ease-out;
   transition-property: border-color, color, margin, padding;
+  box-sizing: border-box;
 }
 
 button {
@@ -59,7 +68,12 @@ ol {
 #root {
   max-width: 1600px;
   margin: 0 auto;
-  padding: 20px 0px;
+  padding: 20px 40px;
   text-align: center;
   white-space: pre-line;
+  font-size: 18px;
+}
+
+.container {
+  padding-top: 60px;
 }

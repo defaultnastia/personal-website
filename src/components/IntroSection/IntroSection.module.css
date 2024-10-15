@@ -1,0 +1,35 @@
+.intro {
+  display: flex;
+  gap: 100px;
+  height: 400px;
+}
+
+.intro > * {
+  border-radius: 16px;
+}
+
+.text {
+  width: calc((100% - 40px) / 2);
+  font-size: 36px;
+  text-align: right;
+
+  & p:first-child {
+    margin-bottom: 60px;
+  }
+}
+
+.text span {
+  font-family: Inter Tight Semibold;
+  color: var(--accent-color);
+}
+
+.photo {
+  width: calc((100% - 40px) / 2);
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
