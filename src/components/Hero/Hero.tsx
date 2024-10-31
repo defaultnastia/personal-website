@@ -5,6 +5,7 @@ const Hero = () => {
   const { t } = useTranslation();
   return (
     <div className={css.hero}>
+      <div className={css.background}></div>
       <h1 className={css.heroText}>{t("description.homePageText.heroText")}</h1>
     </div>
   );
